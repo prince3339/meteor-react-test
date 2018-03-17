@@ -67,7 +67,7 @@ class App extends Component {
                 </button>
 
                 { this.renderPosts() }
-                { this.props.totalCount }
+
                 { this.props.totalCount > this.props.posts.length &&
                     <div className="text-center margin-bottom-16">
                         <button type="button"
